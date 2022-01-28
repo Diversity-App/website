@@ -15,10 +15,10 @@ $(function () {
         var scroll = $(window).scrollTop();
         if (scroll < 20) {
             $(".navbar-area").removeClass("sticky");
-            $(".navbar .navbar-brand img").attr("src", "assets/images/diversity_logo_white.png");
+            $(".navbar .navbar-brand img").attr("src", "assets/images/logo_blanc.svg");
         } else {
             $(".navbar-area").addClass("sticky");
-            $(".navbar .navbar-brand img").attr("src", "assets/images/diversity_logo_blue.png");
+            $(".navbar .navbar-brand img").attr("src", "assets/images/logo_noir.svg");
         }
     });
 
