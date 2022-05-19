@@ -3,7 +3,7 @@ name: Master docker CI
 
 on:
   push:
-    branches: [master, dev]
+    branches: [main, dev]
     paths-ignore:
       - '.github/**'
       - '**.md'
